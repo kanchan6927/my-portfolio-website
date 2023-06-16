@@ -488,3 +488,16 @@ ul svg:hover {
     font-weight: 700;
     font-size: 19px;
 }
+
+.projct-link-btn::before {
+    content: "";
+    height: 1px;
+    width: 50px;
+    background: linear-gradient(270deg, var(--grad-2)0%, var(--grad-1)100%);
+    opacity: 1;
+    display: inline-block;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    right: 0;
+}
