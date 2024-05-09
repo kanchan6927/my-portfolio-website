@@ -48,7 +48,7 @@ $(document).ready(function () {
       individualproject.style.display = "none";
       welcomemessage.style.display = "none";
 
-     
+
       individualproject4.style.display = "none";
     }
     else {
@@ -58,12 +58,39 @@ $(document).ready(function () {
     }
   });
 
+
+
+
+  $(indira).click(function () {
+
+    if (individualproject.style.display === "block" || welcomemessage.style.display === "block" || individualproject4.style.display === "block") {
+      $(individualproject3).toggle("show");
+      individualproject.style.display = "none";
+      welcomemessage.style.display = "none";
+
+
+      individualproject4.style.display = "none";
+    }
+    else {
+      $(individualproject3).toggle("hide");
+      $(welcomemessage).toggle("show");
+
+    }
+  });
+
+
+
 });
+
+
+
+
+
 
 
 function calltabs3() {
   if (individualproject2.style.display === "block" || welcomemessage.style.display === "block" || individualproject4.style.display === "block" || individualproject.style.display === "block") {
-    
+
     individualproject2.style.display = "none";
     welcomemessage.style.display = "none";
     individualproject4.style.display = "none";
@@ -71,7 +98,7 @@ function calltabs3() {
 
   } else {
     welcomemessage.style.display = "block";
-    
+
 
   }
 }
