@@ -10,13 +10,12 @@ for (let i = 0; i < logo.length; i++) {
 const root = document.querySelector(":root");
 var individualproject = document.getElementById("individual-project");
 var individualproject2 = document.getElementById("individual-project2");
-var individualproject3 = document.getElementById("individual-project3");
+// var individualproject3 = document.getElementById("individual-project3");
 var individualproject4 = document.getElementById("individual-project4");
 
 var project = document.getElementById('projects');
 var contact = document.getElementById('contact');
 var cv = document.getElementById('cv');
-var indira = document.getElementById('indira');
 var welcomemessage = document.getElementById("welcome-message");
 
 
@@ -48,7 +47,7 @@ $(document).ready(function () {
       individualproject.style.display = "none";
       welcomemessage.style.display = "none";
 
-
+     
       individualproject4.style.display = "none";
     }
     else {
@@ -58,23 +57,12 @@ $(document).ready(function () {
     }
   });
 
-
-
-
-
-
-
 });
-
-
-
-
-
 
 
 function calltabs3() {
   if (individualproject2.style.display === "block" || welcomemessage.style.display === "block" || individualproject4.style.display === "block" || individualproject.style.display === "block") {
-
+    
     individualproject2.style.display = "none";
     welcomemessage.style.display = "none";
     individualproject4.style.display = "none";
@@ -82,7 +70,7 @@ function calltabs3() {
 
   } else {
     welcomemessage.style.display = "block";
-
+    
 
   }
 }
