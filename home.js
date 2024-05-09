@@ -10,12 +10,13 @@ for (let i = 0; i < logo.length; i++) {
 const root = document.querySelector(":root");
 var individualproject = document.getElementById("individual-project");
 var individualproject2 = document.getElementById("individual-project2");
-// var individualproject3 = document.getElementById("individual-project3");
+var individualproject3 = document.getElementById("individual-project3");
 var individualproject4 = document.getElementById("individual-project4");
 
 var project = document.getElementById('projects');
 var contact = document.getElementById('contact');
 var cv = document.getElementById('cv');
+var indira = document.getElementById('indira');
 var welcomemessage = document.getElementById("welcome-message");
 
 
