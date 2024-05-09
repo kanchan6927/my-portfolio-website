@@ -63,9 +63,10 @@ $(document).ready(function () {
 
   $(indira).click(function () {
 
-    if (individualproject.style.display === "block" || welcomemessage.style.display === "block" || individualproject4.style.display === "block") {
+    if (individualproject.style.display === "block" || welcomemessage.style.display === "block" || individualproject4.style.display === "block" || individualproject2.style.display === "block") {
       $(individualproject3).toggle("show");
       individualproject.style.display = "none";
+      individualproject2.style.display = "none";
       welcomemessage.style.display = "none";
 
 
