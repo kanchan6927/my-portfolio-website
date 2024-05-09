@@ -22,11 +22,11 @@ var welcomemessage = document.getElementById("welcome-message");
 $(document).ready(function () {
   $(project).click(function () {
 
-    if (individualproject.style.display === "none" || individualproject2.style.display === "block" || individualproject4.style.display === "block") {
+    if (individualproject.style.display === "none" || individualproject2.style.display === "block" || individualproject4.style.display === "block" || individualproject3.style.display === "block") {
 
       $(individualproject).toggle("show");
       welcomemessage.style.display = "none";
-      // individualproject3.style.display = "none";
+      individualproject3.style.display = "none";
       individualproject2.style.display = "none";
 
 
@@ -42,13 +42,14 @@ $(document).ready(function () {
 
   $(contact).click(function () {
 
-    if (individualproject.style.display === "block" || welcomemessage.style.display === "block" || individualproject4.style.display === "block") {
+    if (individualproject.style.display === "block" || welcomemessage.style.display === "block" || individualproject4.style.display === "block" || individualproject3.style.display === "block") {
       $(individualproject2).toggle("show");
       individualproject.style.display = "none";
       welcomemessage.style.display = "none";
 
      
       individualproject4.style.display = "none";
+      individualproject3.style.display = "none";
     }
     else {
       $(individualproject2).toggle("hide");
